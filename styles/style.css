@@ -1,0 +1,90 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+b{
+    color: rgb(0, 137, 161);
+}
+b:hover{
+    color: rgb(247, 181, 0);
+}
+body{
+    background: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+div.Titulo{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+div.Coeficientes{
+    text-align: center;
+}
+div.Contenedor{
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+}
+label.coeficiente{
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+input.entrada{
+    border-radius: 33px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+div.Estructura{
+    text-align: center;
+
+}
+p.armado{
+    background-color: rgb(12, 80, 80);
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+div.Resolver{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+button{
+    font-size: 25px;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(28, 103, 173);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: rgb(202, 148, 0);
+    color: rgb(0, 0, 0);
+}
+
+div.Resultado{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+
+}
+p.result{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    max-width: 100%;
+}

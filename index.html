@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../Calculadora_de_ECC_DIF/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Titulo">
+        <h1>Calculadora de Ecucaciones Diferenciales <b>{Homogeneas}</b></h1>
+    </div>
+
+    <div class="Estructura">
+        <p class="armado">a*y''+b*y'+ c*y = 0</p>
+    </div>
+
+    <div class="Coeficientes">
+        <div class="Contenedor">
+            <label class="coeficiente" for="coeficienteA">Coeficiente a:</label>
+            <input class="entrada" type="text" id="coeficienteA" placeholder="C. de y''"><br>
+
+            <label class="coeficiente" for="coeficienteB">Coeficiente b:</label>
+            <input class="entrada" type="text" id="coeficienteB" placeholder="C. de y'"><br>
+
+            <label class="coeficiente" for="coeficienteC">Coeficiente c:</label>
+            <input class="entrada" type="text" id="coeficienteC" placeholder="C. de y"><br>
+        </div>
+    </div>
+    <div class="Resolver">
+        <button onclick="resolverEcuacion()">Resolver</button>
+    </div>
+    <div class="Resultado">
+        <p class="result" id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
